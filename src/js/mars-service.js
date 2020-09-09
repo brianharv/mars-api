@@ -10,6 +10,8 @@ export class MarsService {
           reject(request.response);
         }
       }
-    })
+      request.open("GET", url, true);
+      request.send();
+    });
   }
 }
