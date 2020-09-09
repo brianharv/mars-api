@@ -8,8 +8,8 @@ function clearFields() {
     $('#date').val("");
     $('.showError').val("");
     $('.imageTitle').val("");
-    $('.showPhoto').val("");
-    $('.showVideo').val("");
+    $('.showPhoto').empty();
+    $('.showVideo').empty();
     $('.showText').val("");
     $('.showExp').val("");
 }
